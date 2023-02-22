@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Final Exam of Front-end">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Nattawut Pasuk">
+
+    <link rel="stylesheet" href="style.css">
+    <title>65022498_Final</title>
 </head>
 <body>
-    
+    <main>
+        <form>
+            <h1>Insert Data</h1>
+            <label for="fname">ชื่อ</label>
+            <input type="text" id="fname" name="fname" value="">
+            <label for="lname">นามสกุล</label>
+            <input type="text" id="lname" name="lname" value="">
+            <label for="lname">เพศ</label>
+            <select name="fsec" id="fsec">
+                <option value="Male">ชาย</option>
+                <option value="Female">หญิง</option>
+            </select>
+            <label for="lname">วันเกิด</label>
+            <input type="date" name="dateOfBirth" id="dateOfBirth">
+
+            <input type="button" value="Add">
+          </form>
+
+          <!--Insert data within this Table-->
+          <table>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Surname</td>
+                    <td>Gender</td>
+                    <td>Birth date</td>
+                </tr>
+            </thead>
+            <tbody id="data">
+                
+            </tbody>
+          </table>
+    </main>
+
+      
+
+    <script src="./app.js"></script>
 </body>
 </html>
