@@ -18,7 +18,7 @@ const insert = () => {
     if(tableRow.children.length === headerTable.children.length){
         data.appendChild(tableRow);
     }else {
-        alert("ใส่ข้อมูลไม่ครบ (incompletely filled)")
+        alert("ใส่ข้อมูลไม่ครบ")
     }
     return;
 }
